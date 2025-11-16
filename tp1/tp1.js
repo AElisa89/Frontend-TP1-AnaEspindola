@@ -1,7 +1,5 @@
 js
 // TP1 – Ejercicios de string y arrays
-// Alumna: Ana Espíndola
-// IFTS – Front End
 
 // 1) Calcular el área de un rectángulo
 // La función debe retornar el área (largo x ancho)
@@ -46,7 +44,7 @@ console.log(esPalindromo("neuquen"));
 
 
 // 5) Convertir edad de perro a años humanos
-// Muestra el mensaje por consola (no retorna valor)
+// Muestra el mensaje x consola (no retorna valor)
 function edadCanina(edadHumana) {
     const edadPerro = edadHumana * 7;
     console.log("Tu perro tiene " + edadPerro + " años humanos");
@@ -67,7 +65,7 @@ function capitalizarPalabras(frase) {
 console.log(capitalizarPalabras("hola mundo desde javascript"));
 
 
-// 7) Generar los primeros N números de Fibonacci
+// 7) Generar los primeros n números de Fibonacci
 function fibonacci(n) {
     if (n === 0) return [];
     if (n === 1) return [0];
@@ -182,7 +180,7 @@ console.log(titulosMayus);
 const dramas = peliculas.filter(p => p.genero === "drama" && p.rating > 8.5);
 console.log(dramas);
 
-// 10.4 find → película del año 2014
+// 10.4 find → película del 2014
 const peli2014 = peliculas.find(p => p.año === 2014);
 console.log(peli2014);
 
